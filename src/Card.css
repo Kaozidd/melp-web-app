@@ -1,0 +1,58 @@
+.card {
+  background-color: beige;
+  border: 2px solid rgb(139, 139, 119);
+  border-radius: 2%;
+  padding: .2rem;
+  margin: 2rem 0;
+  color: black;
+  box-sizing: border-box;
+  height: 12em;
+  width: 22em;
+}
+
+.card-top {
+  display: flex;
+  align-items: center;
+}
+
+.card-title {
+  margin: .1rem 0;
+}
+
+.card-rating {
+  margin: 1rem 0;
+  width: 4em;
+  flex-shrink: 0;
+}
+
+.card-address {
+  font-size: smaller;
+  margin: 5px 0;
+  font-style: italic;
+  color: gray;
+}
+
+.card-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-around
+}
+
+.card-contact {
+  font-size:.7rem;
+  display: inline;
+}
+
+.card-state {
+  margin: 10px 0;
+  align-self: flex-end;
+}
+
+.contact-icon {
+	margin: 10px 0;
+	text-align: left;
+}
+
+.contact-icon > svg{
+margin-right: 10px;
+} 
