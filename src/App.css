@@ -35,7 +35,6 @@
 
 .App-container-left {
   width: fit-content;
-  height: 100%;
   /* outline: 2px solid cyan; */
   /* height: calc(100vh-50px); */
   overflow-y: scroll;
