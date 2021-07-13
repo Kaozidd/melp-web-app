@@ -1,12 +1,13 @@
 .card {
-  background-color: beige;
-  border: 2px solid rgb(139, 139, 119);
-  border-radius: 2%;
-  padding: .2rem;
-  margin: 2rem 0;
+  background-color: rgb(220,220,255);
+  /* border: 2px solid rgb(139, 139, 119); */
+  /* border-radius: 2%; */
+  box-shadow: rosybrown;
+  padding: .4rem;
+  margin: 0;
   color: black;
   box-sizing: border-box;
-  height: 12em;
+  height: 100%;
   width: 22em;
 }
 
@@ -26,7 +27,7 @@
 }
 
 .card-address {
-  font-size: smaller;
+  font-size: .9rem;
   margin: 5px 0;
   font-style: italic;
   color: gray;
@@ -38,8 +39,12 @@
   justify-content: space-around
 }
 
+.display-hidden {
+  display: none;
+}
+
 .card-contact {
-  font-size:.7rem;
+  font-size:.8rem;
   display: inline;
 }
 

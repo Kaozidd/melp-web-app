@@ -37,7 +37,7 @@ function Card({data}) {
         </span>
       </div>
       <p className="card-address">{data.address.street}, {data.address.city}</p>
-      <div className="card-bottom">
+      <div className="card-bottom display-hidden">
         <span className="card-contact">
           {/* <h5>Llamele!!</h5> */}
           {showIcon(phone,data.contact.phone)}
