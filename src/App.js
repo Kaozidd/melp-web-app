@@ -2,6 +2,7 @@ import React from 'react';
 import Card from './Card.js';
  
 import map from './map.png';
+import logo from './logo-full.png';
 
 import './App.css';
 const dataS = {
@@ -26,12 +27,13 @@ const dataS = {
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>SIIIIIIUUUUUUU!</p>
+    <div className="app">
+      <header className="app-header">
+        <img src={logo} className='app-logo'alt='pin with plate and cutlery' />
+        <h1>Melp Web-App</h1>
       </header>
-      <div className="App-container">
-        <div className="App-container-left">
+      <div className="app-container">
+        <div className="app-container-left">
           <Card data={dataS} />
           <Card data={dataS} />
           <Card data={dataS} />
@@ -45,7 +47,7 @@ function App() {
           <Card data={dataS} />
           <Card data={dataS} />
         </div>
-        <div className="App-container-right">
+        <div className="app-container-right">
           <img 
             src={map} 
             alt="mexico restaurants map" 
