@@ -1,6 +1,6 @@
 import React from 'react';
 import Card from './Card.js';
-
+ 
 import map from './map.png';
 
 import './App.css';
@@ -32,6 +32,9 @@ function App() {
       </header>
       <div className="App-container">
         <div className="App-container-left">
+          <Card data={dataS} />
+          <Card data={dataS} />
+          <Card data={dataS} />
           <Card data={dataS} />
           <Card data={dataS} />
           <Card data={dataS} />
